@@ -109,5 +109,20 @@ void closeOrder(int ticket2)
 
 void order()
 {
+  // Open buy order with stop loss and take profit
+  int ticketBuy = openOrder(OP_BUY, LotSize, StopLoss, TakeProfit);
+  if (ticketBuy > 0)
+  {
+    Print("Buy order opened with ticket #", ticketBuy);
+    // Tutup pesanan pembelian setelah 10 detik
+
+    Sleep(10000);
+    closeOrder(ticketBuy);
+    Print("Buy order closed with ticket #", ticketBuy);
+  }
+  // Buka order jual dengan stop loss dan take profit
+
+  int ticketSell = openOrder(OP_SELL, LotSize, StopLoss, TakeProfit);
+
   return;
 }
