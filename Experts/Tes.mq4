@@ -13,6 +13,7 @@ input int FastMA = 10;
 input int SlowMA = 20;
 input double LotSize = 0.1;
 input double StopLoss = 0;
+input double TakeProfit = 0;
 // Global variables
 int ticket = 0;
 
