@@ -1,0 +1,48 @@
+# Compiled files
+*.ex4
+*.ex5
+
+# Backup files
+*._@!!@.mq4
+*._@!!@.mq5
+*._@!!@.mqh
+
+# History files
+*.dat
+*.hst
+
+# Logs and reports
+*.log
+*.htm
+*.gif
+*.txt
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# MetaTrader specific folders
+Files/
+Logs/
+Images/
+Experts/Presets/
+Experts/Files/
+Experts/Logs/
+Libraries/Files/
+Libraries/Logs/
+Include/Files/
+Include/Logs/
+Scripts/Files/
+Scripts/Logs/
+
+# Project specific
+tester/
+profiles/
+templates/
