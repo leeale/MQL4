@@ -57,5 +57,26 @@
         "editorBracketHighlight.foreground5": "#8BE9FD",  // Cyan
         "editorBracketHighlight.foreground6": "#FF5555",  // Red
         "editorBracketHighlight.unexpectedBracket.foreground": "#FF0000"
-    }
+    },
+
+    // Tabnine Settings
+"tabnine.experimentalAutoImports": true,
+"tabnine.disableFileRegex": [
+    "^/tmp/.*",
+    "^/node_modules/.*",
+    "^/\\.git/.*"
+],
+"tabnine.receiveBetaChannelUpdates": true,
+"tabnine.experimentalDeepTabnine": true,
+"tabnine.debounceMilliseconds": 500,
+"tabnine.maxNumResults": 10,
+"tabnine.completion.maxFileSize": 15000000,
+"tabnine.completion.maxExplicitInvocations": 30,
+"tabnine.completion.delay": 50,
+"tabnine.completion.enableInlineHints": true,
+"tabnine.completion.showFullFunctionSignatures": true,
+"tabnine.completion.showParameterHints": true,
+"tabnine.prioritizeExactMatches": true,
+"tabnine.usePrivateAPI": true
+
 }
