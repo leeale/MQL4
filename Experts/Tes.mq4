@@ -14,6 +14,10 @@ input int SlowMA = 20;
 input double LotSize = 0.1;
 input double StopLoss = 0;
 input double TakeProfit = 0;
+
+// Local variables
+double lastPrice = 0;
+int direction = 0; // 0 - no direction, 1 - long, -1 - short
 // Global variables
 int ticket = 0;
 
