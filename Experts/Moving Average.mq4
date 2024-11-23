@@ -8,6 +8,7 @@
 #property description "Moving Average sample expert advisor"
 
 #define MAGICMA  20131111
+//--- input parameters
 //--- Inputs
 input double Lots          =0.1;
 input double MaximumRisk   =0.02;
